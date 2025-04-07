@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(to right, #ffcce6, #f8e8ff);
+    font-family: 'Arial', cursive;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #d23669;
+    font-size: 2.5em;
+}
+
+.letter {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(210, 54, 105, 0.2);
+}
+
+button {
+    background: #d23669;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #ff6b81;
+}
+
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.photo-grid img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid white;
+}
